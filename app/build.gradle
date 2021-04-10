@@ -6,7 +6,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.example.infoengineer"
+        applicationId "zx9.staris.infoengineer"
         minSdkVersion 14
         targetSdkVersion 30
         versionCode 1
@@ -33,5 +33,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.google.android.material:material:1.2.0-alpha01'
 
 }

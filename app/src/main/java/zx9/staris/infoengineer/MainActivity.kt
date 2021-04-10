@@ -1,10 +1,11 @@
-package com.example.infoengineer
+package zx9.staris.infoengineer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebChromeClient
 import android.webkit.WebViewClient
 import android.widget.Toast
+import androidx.core.app.ActivityCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 
@@ -20,6 +21,14 @@ class MainActivity : AppCompatActivity() {
         toast?.setText(sessionNum.toString()+"까지 학습했습니다")
         toast?.show()
 
+    }
+
+    override fun onBackPressed() {
+        toast?.cancel()
+        toast?.setText("합격 기원!")
+        toast?.show()
+        ActivityCompat.finishAffinity(this@MainActivity)
+        finish()
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

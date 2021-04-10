@@ -1,4 +1,4 @@
-package com.example.infoengineer
+package zx9.staris.infoengineer
 
 import android.content.Intent
 import android.os.Build

@@ -37,25 +37,25 @@
 
 
             <KeyAttribute
-                motion:motionTarget="@+id/bogM"
+                motion:motionTarget="@+id/bigM"
                 motion:framePosition="0"
                 android:rotation="60" />
             <KeyAttribute
-                motion:motionTarget="@+id/bogM"
+                motion:motionTarget="@+id/bigM"
                 motion:framePosition="0"
                 android:rotation="60" />
             <KeyAttribute
-                motion:motionTarget="@+id/bogM"
+                motion:motionTarget="@+id/bigM"
                 motion:framePosition="0"
                 android:rotation="60" />
             <KeyAttribute
-                motion:motionTarget="@+id/bogM"
+                motion:motionTarget="@+id/bigM"
                 motion:framePosition="0"
                 android:rotation="60" />
             <KeyAttribute />
 
             <KeyAttribute
-                motion:motionTarget="@+id/bogM"
+                motion:motionTarget="@+id/bigM"
                 motion:framePosition="0"
                 android:alpha="0.5" />
             <KeyAttribute android:alpha="0.5" />

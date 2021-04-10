@@ -1,4 +1,4 @@
-package com.example.infoengineer
+package zx9.staris.infoengineer
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
