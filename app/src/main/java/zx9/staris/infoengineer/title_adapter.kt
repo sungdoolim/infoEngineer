@@ -39,7 +39,8 @@ class title_adapter(val context: Context?): RecyclerView.Adapter<title_adapter.C
 
                 TitleList.get(curPos).color=1
 
-                val intent = Intent(view.getContext(), WebView::class.java)
+             //   val intent = Intent(view.getContext(), WebView::class.java)
+                   val intent = Intent(view.getContext(), content::class.java)
 //                val pref=context!!.getSharedPreferences("selected_coupon",0)
 //                val edit=pref.edit()
 //                edit.clear()

@@ -25,10 +25,10 @@ class WebView : AppCompatActivity() {
 
 
      //   println(url + "----------------------------------------------------------------------------------------------------------")
-        val URL="https://staris.tistory.com"+url
+     //   val URL="https://staris.tistory.com"+url
 
      //   println(URL + "----------------------------------------------------------------------------------------------------------")
-        starisTistory.loadUrl(URL)
+     //   starisTistory.loadUrl(URL)
     }
 
 
