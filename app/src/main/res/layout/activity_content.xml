@@ -22,7 +22,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:gravity="center"
+    android:text="title"
 
+    app:layout_constraintTop_toBottomOf="@+id/appCompatImageView"
+
+    android:id="@+id/contentTITLE"/>
     <TextView
         android:id="@+id/contentTEXT"
         android:layout_width="match_parent"
@@ -33,7 +42,7 @@
         android:fontFamily="casual"
         android:text="dfsef"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatImageView"
+        app:layout_constraintTop_toBottomOf="@+id/contentTITLE"
         app:layout_constraintVertical_bias="0.067"
         tools:layout_editor_absoluteX="0dp" />
 

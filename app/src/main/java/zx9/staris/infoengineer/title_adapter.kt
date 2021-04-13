@@ -35,7 +35,7 @@ class title_adapter(val context: Context?): RecyclerView.Adapter<title_adapter.C
 
                 view.titleid.setBackgroundColor(Color.parseColor("#F1ECD2"))
                 var title: String =TitleList.get(curPos).title
-                var url: String =TitleList.get(curPos).url
+                var contents: String =TitleList.get(curPos).url
 
                 TitleList.get(curPos).color=1
 
@@ -46,8 +46,9 @@ class title_adapter(val context: Context?): RecyclerView.Adapter<title_adapter.C
 //                edit.clear()
 //                edit.putString("url",dl)
 //                edit.apply()
-                intent.putExtra("url",url);
-                context?.startActivity(intent)//intent.getStringExtra("url")?:"null?"
+                intent.putExtra("contents",contents);
+                intent.putExtra("title",title)
+                context!!.startActivity(intent)//intent.getStringExtra("url")?:"null?"
 
             }
         }

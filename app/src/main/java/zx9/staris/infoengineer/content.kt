@@ -9,7 +9,10 @@ class content : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_content)
-        val contentText:String=intent.getStringExtra("url")?:"0"
+        val contentText:String=intent.getStringExtra("contents")?:"0"
+
+        val contentTitle:String=intent.getStringExtra("title")?:"0"
+        contentTITLE.text=contentTitle
         contentTEXT.text=contentText
     }
 }
